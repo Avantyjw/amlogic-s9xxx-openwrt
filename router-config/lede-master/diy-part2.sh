@@ -44,7 +44,7 @@ svn co https://github.com/hubutui/p7zip-lede/trunk package/p7zip
 # coolsnowwolf default software package replaced with Lienol related software package
 # rm -rf feeds/packages/utils/{containerd,libnetwork,runc,tini}
 # svn co https://github.com/Lienol/openwrt-packages/trunk/utils/{containerd,libnetwork,runc,tini} feeds/packages/utils
-
+git clone https://github.com/jerrykuku/luci-app-vssr.git package/lean/luci-app-vssr
 # Add third-party software packages (The entire repository)
 # git clone https://github.com/libremesh/lime-packages.git package/lime-packages
 # Add third-party software packages (Specify the package)
